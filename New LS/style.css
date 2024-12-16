@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Header styles */
+header {
+    background-color: #673ab7;
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Footer styles */
+footer {
+    background-color: #673ab7;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.large-font {
+    font-size: 36px;
+}
+
+.medium-font {
+    font-size: 24px;
+}
+
+/* Additional styles for index.php */
+.wrapper {
+    padding: 20px;
+}
+
+.sec_img {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
